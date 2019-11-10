@@ -1,4 +1,7 @@
 # node-sample
 Creating basic api's using express js
 
-Run npm strat to launch the app
+
+#command to run the app#
+Run npm start to run the appliation
+
