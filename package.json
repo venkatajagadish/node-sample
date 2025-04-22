@@ -1,19 +1,18 @@
 {
-  "name": "node-app",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "node app with express js",
+  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/venkatajagadish/node-sample.git"
-  },
-  "author": "Venkata Jagadish",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/venkatajagadish/node-sample/issues"
-  },
-  "homepage": "https://github.com/venkatajagadish/node-sample#readme"
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
 }
